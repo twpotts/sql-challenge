@@ -1,0 +1,28 @@
+Description:
+
+This project turns 6 CSV files into 6 PostgreSQL tables and then runs 8 queries on them
+
+Pre-requisites:
+
+For the schemata.sql file to work properly, the user must have a folder called data stored on their C drive with the CSVs.
+If not, then the schemata.sql file will need to be modified after each FROM statement to include a proper folder destination.
+
+Folder contents:
+
+EmployeeSQL
+    data
+        departments.csv
+        dept_emp.csv
+        dept_manager.csv
+        employees.csv
+        salaries.csv
+        titles.csv
+    erd.png
+    queries.sql
+    README
+    schemata.sql
+
+Contact info:
+
+Tyler Potts
+twpotts11@gmail.com
